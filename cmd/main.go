@@ -9,7 +9,7 @@ import (
 func main() {
 	args := os.Args
 	//cut exe name
-	args = args[0:]
+	args = args[1:]
 
 	if len(args) < 3 {
 		return
